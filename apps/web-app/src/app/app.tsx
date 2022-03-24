@@ -1,10 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { useEffect, useState, useCallback, useRef } from 'react';
-import axios from 'axios';
+import { useCallback, useRef } from 'react';
 
 import styles from './app.module.css';
-import { Todo } from '@todo-list/shared-types'
-import DeleteButton from "./components/DeleteButton";
 import InfoCard from "./components/InfoCard";
 import { useTodoList } from "../app/utils/lib/data-access/data-access"
 
