@@ -1,0 +1,15 @@
+/* Your styles goes here. */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #f8f4f4;
+  text-align: center;
+  margin: 128px auto;
+  padding-top: 38px;
+  border-radius: 28px;
+  padding-bottom: 32px;
+}
