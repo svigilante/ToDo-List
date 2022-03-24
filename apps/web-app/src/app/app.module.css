@@ -13,3 +13,17 @@
   border-radius: 28px;
   padding-bottom: 32px;
 }
+
+.group-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 12px 0px 12px 0px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #262538;
+  outline: none;
+  width: 280px;
+  background: transparent;
+  margin-right: 32px;
+  margin-left: 8px;
+  color: #262538;
+}

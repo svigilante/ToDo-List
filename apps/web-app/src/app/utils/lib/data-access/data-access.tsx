@@ -42,7 +42,7 @@ export function useTodoList() {
   const toggleTodo = useCallback( async ( id: number ) => {
     await axios.post('http://localhost:3333/api/setCompleted', {
       id,
-      completed: !(todos.find( (todo) => todo.id === id ))?.completed,
+      completed: !((todos.find( (todo) => todo.id === id ))?.completed),
     });
     getTodos()
   }, [todos, getTodos])

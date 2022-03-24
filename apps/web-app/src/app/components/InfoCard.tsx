@@ -71,7 +71,7 @@ const InfoCard: React.FC<Props> = (
       </div>
       {children}
 
-        {(onClickSecond || secondText)&&(<div style={{flex: "0 0 50%", display: "flex", justifyContent: "space-between", alignItems:"center", paddingLeft: "310px", position:"absolute"}}>
+        {(onClickSecond || secondText)&&(<div style={{flex: "0 0 4%", display: "flex", justifyContent: "center", alignItems:"center", position:"absolute", marginLeft:"310px"}}>
 
           <Button letterColor={letterColorSecond} 
                   color={colorSecond}

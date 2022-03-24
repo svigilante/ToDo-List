@@ -78,12 +78,16 @@ export function App() {
       </div>
 
 
-      <div>
-        <label>Category</label>
-        <input ref={groupInputRef} />
+      <div style={{justifyContent: "center", alignItems: "center"}}>
+        <div style={{justifyContent: "center", alignItems: "center"}}>
+          <label>Category</label>
+          <input ref={groupInputRef} className={ styles?.['group-input'] } />
+        </div>
         <br></br>
-        <label>Task</label>
-        <input ref={textInputRef} />
+        <div style={{justifyContent: "center", alignItems: "center"}}>
+          <label style={{marginLeft:"27px"}}>Task</label>
+          <input ref={textInputRef} className={ styles?.['group-input'] } />
+        </div>
       </div>
       <div>
         <button onClick={onAddTodo}>Add</button>
