@@ -24,3 +24,12 @@ There's a folder named [data-access](https://github.com/svigilante/ToDo-List/tre
 (_For example we could share the business logic between the React app and a React Native app_.)
 
 It is defined in the **[data-access.tsx](https://github.com/svigilante/ToDo-List/blob/main/apps/web-app/src/app/utils/lib/data-access/data-access.tsx)** file ( _[ToDo-List/apps/web-app/src/app/utils/lib/data-access/data-access.tsx](https://github.com/svigilante/ToDo-List/blob/main/apps/web-app/src/app/utils/lib/data-access/data-access.tsx)_ ).
+
+
+
+## 🚀 The App!
+
+![export_0](https://user-images.githubusercontent.com/90156823/160018661-bda7d293-aa83-4d65-9762-b6798a19d341.GIF)
+
+
+(_We can see towards the end of the gif that if we reload the page the changes made in our ToDo app remain because the api server retains all the neccesary info_)
